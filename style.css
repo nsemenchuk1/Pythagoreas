@@ -1,0 +1,92 @@
+html {
+  margin: auto;
+  background: maroon;
+}
+
+body {
+  margin: auto;
+  background: white;
+  width: 600px;
+  padding: 20px 75px 20px 75px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+div {
+  padding: 10px 50px 10px 50px;
+  background: rgb(235, 235, 235);
+  border: 1px solid grey;
+}
+
+img {
+  width: 400px;
+}
+
+img:hover {
+  border: 2px solid black;
+  transition: border 0.5s;
+}
+
+#image {
+  text-align: center;
+}
+
+p {
+  letter-spacing: 0.3px;
+}
+
+#little-calculate {
+  /* font: small caps */
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+button {
+  font-size: 18px;
+  /* font: small caps */
+  background: #808000;
+}
+
+#question-marks {
+  font-weight: bold;
+  color: maroon;
+}
+
+h1 {
+  color: #808000;
+}
+
+h2 {
+  color: maroon;
+}
+
+h3 {
+  color: maroon;
+}
+
+.a-b-c {
+  font-weight: bold;
+}
+
+.maven-pro {
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.small-caps {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: small-caps;
+  font-variation-settings: "wdth" 100;
+}

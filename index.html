@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pythagoreas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="maven-pro">Pythagorean Theorem</h1>
+    <p class="open-sans">
+      For any right triangle with sides <span class="a-b-c">a</span> and
+      <span class="a-b-c">b</span> and hypotenuse <span class="a-b-c">c</span>,
+      the square of the hypotenuse is equal to the sum of the squares of the
+      other two sides.
+    </p>
+    <p id="image">
+      <a
+        target="_blank"
+        href="http://www.etudes.ru/en/etudes/pythagorean-theorem/"
+        ><img src="images/Pythagorean-Theorem.jpeg" alt="Pythagorean-Theorem"
+      /></a>
+    </p>
+    <div>
+      <h2 class="maven-pro">Pythagorean Calculator</h2>
+      <p class="open-sans">
+        Enter the lengths for the two shorter sides of a right triangle. Then
+        click the
+        <span class="small-caps" id="little-calculate">Calculate</span> button
+        to determine the length of the hypotenuse.
+      </p>
+      <h3 class="maven-pro">Inputs</h3>
+      <p class="open-sans">Side a: <input type="number" /></p>
+      <p class="open-sans">Side b: <input type="number" /></p>
+      <p><button class="small-caps">Calculate</button></p>
+      <h3 class="maven-pro">Result</h3>
+      <p class="open-sans">
+        The length of the hypotenuse is: <span id="question-marks">?????</span>
+      </p>
+    </div>
+  </body>
+</html>
